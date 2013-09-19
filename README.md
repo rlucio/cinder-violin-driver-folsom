@@ -14,25 +14,21 @@ users and may be periodically updated in the future.
 Setup
 -----
 
-1. Download the 'xg-tools' from Violin Memory's website here:
-http://web.eng.vmem.int/releases/opensource/xg-tools.  Unzip the file
-on the machine(s) running Cinder's volume service (cinder-volume).
+1. Download a zip file of this repository (using the "Download ZIP"
+button to the right). Unzip the file on the machine(s) running
+Cinder's volume service (cinder-volume).
 
 2. Install the 'xg-tools'.  Installation instructions can be found in
 the un-tarred vxg directory.
 
-3. Download a zip file of this repository (using the "Download ZIP"
-button to the right). Unzip the file on the machine(s) running
-Cinder's volume service (cinder-volume).
-
-4. Copy the 'violin.py' source file to the drivers section of the
+3. Copy the 'violin.py' source file to the drivers section of the
 cinder libraries.
 
     Example: cp violin.py /usr/local/lib/python2.7/dist-packages/cinder/volume
 
-5. Configure cinder to use the violin driver (see below).
+4. Configure cinder to use the violin driver (see below).
 
-6. Restart cinder-volume.
+5. Restart cinder-volume.
 
 Configuration
 -------------
